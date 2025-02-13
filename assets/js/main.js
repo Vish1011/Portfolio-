@@ -89,7 +89,7 @@ window.onscroll = function(){headerShadow()};
   function downloadResume() {
     const link = document.createElement('a');
     link.href = 'assets/images/RESUME (4).pdf'; // Replace with the actual path to your resume file
-    link.download = 'VISHAL RESUME.pdf'; // Replace with the desired file name
+    link.download = 'VishalK_RESUME.pdf'; // Replace with the desired file name
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
